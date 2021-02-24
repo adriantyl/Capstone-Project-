@@ -1,24 +1,33 @@
-# Capstone-Project-
-DSI19
+# Capstone-Project: Spotify Recommender & Analysis
+General Assembly DSI 19 Capstone-Project Adrian Teng
 
 ## Section 1: Problem statement
 
+
 ### Part 1.1: The context of the problem
 
-W
+Music have been revolving around life in many different events. An event company hopes to come out with albums that matches their theme of event and keeping the similarities of each song tightly. Especially, during this period of time, when live performance is not allowed due to pandemic and using music playlist will be the most optimal choice.
+
 ### Part 1.2: The goal of this project
 
+The goal of this project is to come out with a recommender that will recommend song with similarilar attributes from Spotify and also find out which model will be best to predict the popularity of a song.
 
-
-### Part 1.3: Evaluation metrics
-
+The data used will 
 
 
 ## Section 2: Notebooks in this project
+1. EDA
+2. Clustering and Recommender
+3. Modelling and Prediciton
 
 
 ## Section 3: Datasets and data dictionaries
 
+The dataset is split into 2 files:
+1.data.csv
+2.data_genre.csv
+
+The datas are scraped from Spotify API.
 
 
 |**Index**|**Feature Name**|**Description**|
@@ -73,11 +82,11 @@ W
 |12|NumMosquitos|Number of mosquitoes caught in that trap|
 |13|WnvPresent|Whether WNV was present in these mosquitos. 1 means WNV is present, and 0 means not present. **This is the label**|
 
+## Section 4: Clustering and Recommender
 
+## Section 5: Production Model and Analysis
 
-## Section 4: Production Model and Analysis
-
-### Part 4.1: The final production model
+### Part 5.1: The final production model
 
 The final production model was an Adaboost model. The model had achieved a score of 73% on the training set and 72% on the test set, meaning that it had some bias, but quite a low variance. This means that it generalised well. This is compared to some other models we tested, including: 
 
