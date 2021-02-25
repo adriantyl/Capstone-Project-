@@ -36,7 +36,7 @@ The dataset is split into 2 files:
 1.data.csv
 2.data_genre.csv
 
-The datas are scraped from Spotify API from kaggle.
+The datas are scraped from Spotify API took from kaggle. The data used in this project was collected from Spotify's Web API. This is basically a computer algorthirm that Spotify has that can estimate various aspects of the audio file. Below, I will list the various attributes given to every song as refered from Spotify's developer page: https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
 - duration_ms - The duration of the track in milliseconds.
 key - The estimated overall key of the track. Integers map to pitches using standard Pitch Class notation . E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.
