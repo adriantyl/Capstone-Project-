@@ -9,7 +9,7 @@ General Assembly DSI 19 Capstone Project Adrian Teng
 
 ## Problem Statement 
 
-Music have been revolving around life in many different events. An event company hopes to come out with albums that matches their theme of event and keeping the similarities of each song tightly. Especially, during this period of time, when live performance is not allowed due to pandemic and using music playlist will be the most optimal choice.
+Music have been revolving around life in many different events. An event company hopes to come out with an albums that matches their theme of event due to the rise for varieties of events and keeping the similarities of each song tightly. As they hope to reduce the workloads of music coordinator, especially during this period of time, when live performance is not allowed due to pandemic and using music playlist will be the most optimal choice.
 
 The goal of this project is to come out with a recommender that will recommend song with similar attributes from Spotify and also find out which model will be best to predict the popularity of a song.
 
@@ -68,15 +68,15 @@ loudness - The overall loudness of a track in decibels (dB). Loudness values are
 
 ## Conclusion
 
-- In modelling i believe alot more can be done to improve the prediction as the song atrributes may not be the only factors that contribution to the song to be popular or not. For example, song lyrics it may be another reason for a song to be popular.
+- In modelling RandonForest outperform the rest when predicting with audio features, i believe alot more can be done to improve the prediction as the song atrributes may not be the only factors that contribution to the song to be popular or not. For example, song lyrics it may be another reason for a song to be popular.
 
 - When doing the recommender, we can see that songs from the popular artists, songs are naturally more popular than those with the same attributes as well. 
 
-- Tsne have higher sihoulette score but it takes very to run for huge datasets and also treat outliners more effectively. 
+- Tsne have higher sihoulette score but it takes very long to run for huge datasets and also treat outliners more effectively. 
 
 - The smaller the clusters, the higher the silhouette score, which also mean that cohension will be lower and separation higher.
 
-- Kmean and Cosine are naturally different calculate differently, but majority of the songs predicted are similar.
+- Kmean and Cosine are naturally different in calculation metrics, but majority of the songs predicted are similar.
 
 
 
